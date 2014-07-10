@@ -72,6 +72,8 @@ alias gpu='git pull'
 alias gp='git push'
 alias gpo='git push origin'
 
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
 # Global aliases
 #alias -g rai='rails'
 #alias -g rs='rspec'
