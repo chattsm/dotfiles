@@ -1,0 +1,11 @@
+Host *
+    TCPKeepAlive yes
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host [shortcut]
+    HostName [ip]
+    User [user]
+    LocalForward 42001 localhost:5432
+    LocalForward 42002 localhost:3306
+

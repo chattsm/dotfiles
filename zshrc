@@ -13,14 +13,14 @@ fi
 # Customize to your needs...
 
 # Chruby
-if [[ -s "/usr/local/share/chruby/chruby.sh" ]]; then
-  source "/usr/local/share/chruby/chruby.sh"
+if [[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]]; then
+  source "/usr/local/opt/chruby/share/chruby/chruby.sh"
   chruby ruby-2.1.2
 fi
 
 # Chruby - auto loader
-if [[ -s "/usr/local/share/chruby/auto.sh" ]]; then
-  source "/usr/local/share/chruby/auto.sh"
+if [[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]; then
+  source "/usr/local/opt/chruby/share/chruby/auto.sh"
 fi
 
 # Lets behave more like Vim when in Vi mode
@@ -41,10 +41,7 @@ export PROMPT_EOL_MARK=""
 # http://www.greenwoodsoftware.com/less/faq.html#tite
 export LESS='-g -i -M -R -S -w -z-4'
 
-# Add local bins to path, probably Macports related
-#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-# Add local bins to path, probably Macports related
+# Add local bins to path
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Tell PostgreSQL we want to login as the 'postgres' user
