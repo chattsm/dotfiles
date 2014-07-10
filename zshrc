@@ -13,15 +13,7 @@ fi
 # Customize to your needs...
 
 # Chruby
-if [[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]]; then
-  source "/usr/local/opt/chruby/share/chruby/chruby.sh"
-  chruby ruby-2.1.2
-fi
-
-# Chruby - auto loader
-if [[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]; then
-  source "/usr/local/opt/chruby/share/chruby/auto.sh"
-fi
+chruby ruby-2.1.2
 
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
@@ -42,7 +34,9 @@ export PROMPT_EOL_MARK=""
 export LESS='-g -i -M -R -S -w -z-4'
 
 # Add local bins to path
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
 
 # Tell PostgreSQL we want to login as the 'postgres' user
 export PGUSER=postgres

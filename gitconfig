@@ -6,12 +6,14 @@
 [push]
 	default = current
 [diff]
-	tool = diffmerge
-[difftool "diffmerge"]
-	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+	tool = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"
+[difftool]
 	prompt = false
+[difftool "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"]
+	cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge \"$LOCAL\" \"$REMOTE\""
 [merge]
-	tool = diffmerge
-[mergetool "diffmerge"]
-	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	tool = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"
+[mergetool]
 	trustExitCode = true
+[mergetool "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"]
+	cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
