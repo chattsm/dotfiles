@@ -1,0 +1,33 @@
+" Use Pathogen for all our plugins
+" https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
+
+set nocompatible
+set bs=2
+set number
+set linebreak
+
+syntax on
+
+" Disable arrow keys 
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+" Change leader key to something less stupid
+let mapleader="`"
+
+" Specific pluging mappings
+
+"" nerdtree.vim
+"" https://github.com/scrooloose/nerdtree
+nnoremap <leader>nt :NERDTreeToggle<cr>
+
+"" tagbar.vim
+"" https://github.com/majutsushi/tagbar
+nmap <F8> :TagbarToggle<CR>

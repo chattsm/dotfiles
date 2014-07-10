@@ -1,0 +1,18 @@
+[submodule "zprezto"]
+	path = zprezto
+	url = git@github.com:sorin-ionescu/prezto.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/vim-sensible"]
+	path = vim/bundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git

@@ -1,0 +1,17 @@
+[user]
+	name = Martin Chatterton
+	email = martin.chatterton@1minus1.com
+[color]
+	ui = true
+[push]
+	default = current
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+	prompt = false
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
