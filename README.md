@@ -1,5 +1,8 @@
 dotfiles
 ========
+
+installation
+------------
 ```
 cd ~
 git clone --recursive git@github.com:chattsm/dotfiles.git
@@ -15,4 +18,17 @@ ln -s ./dotfiles/zprezto/runcoms/zprofile ./.zprofile
 ln -s ./dotfiles/zprezto/runcoms/zshenv ./.zshenv
 ln -s ./dotfiles/zpreztorc ./.zpreztorc
 ln -s ./dotfiles/zshrc ./.zshrc
+```
+
+adding
+------
+```
+git submodule add git://github.com/tpope/vim-surround.git vim/bundle/vim-surround
+git submodule update --init --recursive
+```
+
+updating
+--------
+```
+git submodule update --recursive
 ```
