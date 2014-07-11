@@ -18,6 +18,7 @@ ln -s ./dotfiles/zprezto/runcoms/zprofile ./.zprofile
 ln -s ./dotfiles/zprezto/runcoms/zshenv ./.zshenv
 ln -s ./dotfiles/zpreztorc ./.zpreztorc
 ln -s ./dotfiles/zshrc ./.zshrc
+ln -s ./dotfiles/Preferences.sublime-settings ./Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ```
 
 adding
