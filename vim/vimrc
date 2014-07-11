@@ -1,5 +1,6 @@
 " Use Pathogen for all our plugins
 " https://github.com/tpope/vim-pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 set nocompatible
@@ -9,7 +10,7 @@ set linebreak
 
 syntax on
 
-" Disable arrow keys 
+" Disable arrow keys
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
