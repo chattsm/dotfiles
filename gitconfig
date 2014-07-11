@@ -6,14 +6,13 @@
 [push]
 	default = current
 [diff]
-	tool = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"
+	tool = diffmerge
 [difftool]
 	prompt = false
-[difftool "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"]
+[difftool "diffmerge"]
 	cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge \"$LOCAL\" \"$REMOTE\""
 [merge]
-	tool = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"
-[mergetool]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
 	trustExitCode = true
-[mergetool "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge"]
-	cmd = "/Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
