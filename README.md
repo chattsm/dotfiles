@@ -5,7 +5,9 @@ installation
 ------------
 ```
 cd ~
+
 git clone --recursive git@github.com:chattsm/dotfiles.git
+
 ln -s ./dotfiles/ackrc ./.ackrc
 ln -s ./dotfiles/gitconfig ./.gitconfig
 ln -s ./dotfiles/tmux.conf ./.tmux.conf
