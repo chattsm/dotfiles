@@ -10,4 +10,5 @@ brew install ack
 brew install tmux
 brew install vim
 brew install hub 
+brew install colordiff 
 ```
