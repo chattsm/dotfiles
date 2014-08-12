@@ -20,6 +20,12 @@ bindkey -M vicmd "?" vi-history-search-backward
 bindkey -M vicmd "/" vi-history-search-forward
 KEYTIMEOUT=1
 
+# Bind run-help (man) to ESC-h
+# http://bewatermyfriend.org/media/vi-mode.zsh
+# http://docstore.mik.ua/orelly/unix3/upt/ch30_14.htm
+bindkey -M vicmd '^[h' run-help
+#bindkey -M viins '^[h' run-help
+
 # Remove annoying beeps
 setopt nobeep
 
