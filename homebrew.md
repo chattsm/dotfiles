@@ -7,6 +7,7 @@ brew install git
 brew install ruby-install
 brew install chruby
 brew install ack
+brew install the_silver_searcher
 brew install tmux
 brew install vim
 brew install hub 
