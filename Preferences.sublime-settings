@@ -12,8 +12,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"MarkdownEditing",
+		"Vintage",
 		"Markdown"
 	],
 	"open_files_in_new_window": false,

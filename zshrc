@@ -42,7 +42,8 @@ export LESS='-g -i -M -R -S -w -z-4'
 # Add local bins to path
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+export PATH=~/.composer/vendor/bin:$PATH
 
 # Tell PostgreSQL we want to login as the 'postgres' user
 export PGUSER=postgres
