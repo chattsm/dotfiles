@@ -8,4 +8,5 @@ Host [shortcut]
     User [user]
     LocalForward 42001 localhost:5432
     LocalForward 42002 localhost:3306
+    ForwardAgent yes
 
