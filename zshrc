@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 
 # Chruby
-chruby ruby-2.1.2
+chruby ruby-2.1.3
 
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
