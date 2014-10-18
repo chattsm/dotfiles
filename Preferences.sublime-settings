@@ -12,9 +12,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"MarkdownEditing",
 		"Vintage",
-		"Markdown",
-		"MarkdownEditing"
+		"Markdown"
 	],
 	"open_files_in_new_window": false,
 	"rulers":

@@ -74,6 +74,7 @@ alias gp='git push'
 alias gpo='git push origin'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias dl='curl -C - -L -O'
 
 # Global aliases
 #alias -g rai='rails'
