@@ -31,5 +31,5 @@ git submodule update --init --recursive
 updating
 --------
 ```
-git submodule foreach --recursive git pull origin master
+git submodule foreach --recursive 'git pull origin master'
 ```
