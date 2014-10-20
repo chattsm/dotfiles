@@ -24,12 +24,12 @@ ln -s ./dotfiles/Preferences.sublime-settings ./Library/Application\ Support/Sub
 adding
 ------
 ```
-git submodule add git://github.com/tpope/vim-surround.git vim/bundle/vim-surround
+git submodule add [repo] [path]
 git submodule update --init --recursive
 ```
 
 updating
 --------
 ```
-git submodule foreach --recursive 'git pull origin master'
+git submodule foreach 'git pull' && git submodule update --init --recursive
 ```
