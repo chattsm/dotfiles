@@ -72,6 +72,8 @@ alias ga='git add'
 alias gpu='git pull'
 alias gp='git push'
 alias gpo='git push origin'
+alias gd='git diff'
+alias gdc='git diff --cached'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias dl='curl -C - -L -O'
