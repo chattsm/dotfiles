@@ -76,8 +76,8 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias dl='curl -C - -L -O'
-alias dlf='curl -C - -L -o'
+alias dl='curl -C - -L --retry 10 -O'
+alias dlf='curl -C - -L --retry 10 -o'
 
 # Global aliases
 #alias -g rai='rails'
