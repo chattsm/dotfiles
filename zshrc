@@ -83,3 +83,13 @@ alias dlf='curl -C - -L --retry 10 -o'
 #alias -g rai='rails'
 #alias -g rs='rspec'
 #alias -g ra='rake'
+
+# ag hack to make .tpl file searching easier
+ag() {
+    if [[ $1 == '--tpl' ]]; then
+        shift
+        command ag -G '\.tpl$' "$@"
+    else
+        command ag "$@"
+    fi
+}
