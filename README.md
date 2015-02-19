@@ -14,7 +14,7 @@ ln -s ./dotfiles/vim/vimrc ./.vimrc
 ln -s ./dotfiles/zprezto ./.zprezto
 ln -s ./dotfiles/zprezto/runcoms/zlogin ./.zlogin
 ln -s ./dotfiles/zprezto/runcoms/zlogout ./.zlogout
-ln -s ./dotfiles/zprezto/runcoms/zprofile ./.zprofile
+ln -s ./dotfiles/zprofile ./.zprofile
 ln -s ./dotfiles/zprezto/runcoms/zshenv ./.zshenv
 ln -s ./dotfiles/zpreztorc ./.zpreztorc
 ln -s ./dotfiles/zshrc ./.zshrc

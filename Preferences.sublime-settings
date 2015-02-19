@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"create_window_at_startup": false,
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
@@ -12,9 +12,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
 		"Markdown",
-		"Vintage"
+		"Vintage",
+		"MarkdownEditing"
 	],
 	"open_files_in_new_window": false,
 	"rulers":
