@@ -71,7 +71,7 @@ alias gc='git commit'
 alias ga='git add'
 alias gpu='git pull'
 alias gp='git push'
-alias gpo='git push origin --track'
+alias gpo='git push -u origin'
 alias gd='git diff'
 alias gdc='git diff --cached'
 
