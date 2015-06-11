@@ -37,6 +37,8 @@ export PROMPT_EOL_MARK=""
 
 # Make less behave more like it does in Bash, remove -F and -X (see .zprofile)
 # http://www.greenwoodsoftware.com/less/faq.html#tite
+export LESSPIPE=`which src-hilite-lesspipe.sh`
+export LESSOPEN="| ${LESSPIPE} %s"
 export LESS='-g -i -M -R -S -w -z-4'
 
 # Add local bins to path

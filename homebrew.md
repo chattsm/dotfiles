@@ -15,4 +15,5 @@ brew install colordiff
 brew install tree
 brew install php56
 brew install composer
+brew install source-highlight
 ```
