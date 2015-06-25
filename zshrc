@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 
 # Chruby
-chruby ruby-2.2.0
+chruby ruby-2.2.2
 
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
@@ -55,8 +55,6 @@ export EDITOR=vim
 export VISUAL=vim
 
 # Aliases
-alias rb='ruby'
-
 alias be='bundle exec'
 alias berai='bundle exec rails'
 alias bers='bundle exec rspec'
@@ -76,6 +74,7 @@ alias gp='git push'
 alias gpo='git push -u origin'
 alias gd='git diff'
 alias gdc='git diff --cached'
+alias gba='git branch -a'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias dl='curl -C - -L --retry 10 -O'
@@ -95,3 +94,4 @@ ag() {
         command ag "$@"
     fi
 }
+

@@ -78,7 +78,7 @@ fi
 
 # Chruby
 if [[ ! -o interactive ]]; then
-    source /usr/local/share/chruby/chruby.sh
-    chruby ruby-2.2.0
+  source /usr/local/share/chruby/chruby.sh
+  chruby ruby-2.2.2
 fi
 
