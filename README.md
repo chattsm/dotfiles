@@ -33,6 +33,6 @@ git submodule update --init --recursive
 updating
 --------
 ```
-git submodule foreach 'git fetch origin master; git reset --hard origin/master'
+git submodule update --remote --merge
 git submodule update --init --recursive
 ```
