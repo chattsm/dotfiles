@@ -1,4 +1,6 @@
 "*":
+  "atom-beautify":
+    _analyticsUserId: "dfc2c526-931e-408d-bc75-9b2ab13de2f7"
   core:
     openEmptyEditorOnStart: false
   editor:
@@ -10,6 +12,9 @@
     showErrorTabLine: true
   "linter-rubocop":
     command: "/Users/chattsm/.gem/ruby/2.3.0/bin/rubocop"
+  "linter-slim":
+    executableDir: "/Users/chattsm/.gem/ruby/2.3.0/bin/slimrb"
+  navigate: {}
   welcome:
     showOnStartup: false
   whitespace:
