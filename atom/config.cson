@@ -19,3 +19,6 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
+".slim.text":
+  whitespace:
+    removeTrailingWhitespace: true
