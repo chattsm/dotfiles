@@ -35,6 +35,10 @@ setopt PROMPT_CR
 setopt PROMPT_SP
 export PROMPT_EOL_MARK=""
 
+# Make sure return key never stops working!
+# http://askubuntu.com/questions/441744/pressing-enter-produces-m-instead-of-a-newline/454663
+stty icrnl
+
 # Make less behave more like it does in Bash, remove -F and -X (see .zprofile)
 # http://www.greenwoodsoftware.com/less/faq.html#tite
 export LESSPIPE=`which src-hilite-lesspipe.sh`
