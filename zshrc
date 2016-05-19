@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 
 # Chruby
-chruby ruby-2.3.0
+chruby ruby-2.3.1
 
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
@@ -77,7 +77,7 @@ alias gpu='git pull'
 alias gp='git push'
 alias gpo='git push -u origin'
 alias gd='git diff'
-alias gdc='git diff --cached'
+alias gds='git diff --staged'
 alias gba='git branch -a'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
