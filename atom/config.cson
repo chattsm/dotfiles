@@ -1,6 +1,9 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "dfc2c526-931e-408d-bc75-9b2ab13de2f7"
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+    cmd: "/usr/local/bin/ctags"
   core:
     openEmptyEditorOnStart: false
   editor:
@@ -8,6 +11,8 @@
     invisibles: {}
   "exception-reporting":
     userId: "c48ce2cd-b828-4f95-22b0-1d8516b12e2d"
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
   linter:
     showErrorTabLine: true
   "linter-rubocop":
