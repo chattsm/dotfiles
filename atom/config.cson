@@ -15,8 +15,7 @@
     hideHighlightOnSelectedWord: true
   linter:
     showErrorTabLine: true
-  "linter-rubocop":
-    command: "/Users/chattsm/.gem/ruby/2.3.0/bin/rubocop"
+  "linter-rubocop": {}
   "linter-slim":
     executableDir: "/Users/chattsm/.gem/ruby/2.3.0/bin/slimrb"
   navigate: {}
