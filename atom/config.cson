@@ -1,11 +1,13 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "dfc2c526-931e-408d-bc75-9b2ab13de2f7"
+    general:
+      _analyticsUserId: "dfc2c526-931e-408d-bc75-9b2ab13de2f7"
   "atom-ctags":
     autoBuildTagsWhenActive: true
     cmd: "/usr/local/bin/ctags"
   core:
     openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
   editor:
     fontSize: 12
     invisibles: {}
