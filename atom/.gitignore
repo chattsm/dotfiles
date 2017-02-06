@@ -2,6 +2,7 @@ storage
 compile-cache
 dev
 blob-store
+packages
 .apm
 .npm
 .node-gyp
