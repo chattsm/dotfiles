@@ -12,9 +12,6 @@ fi
 
 # Customize to your needs...
 
-# Chruby
-chruby ruby-2.3.0
-
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
 bindkey -M vicmd "/" vi-history-search-forward
@@ -48,7 +45,6 @@ export LESS='-g -i -M -R -S -w -z-4'
 # Add local bins to path
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
 
 # Tell PostgreSQL we want to login as the 'postgres' user
@@ -88,14 +84,3 @@ alias dlf='curl -C - -L --retry 10 -o'
 #alias -g rai='rails'
 #alias -g rs='rspec'
 #alias -g ra='rake'
-
-# ag hack to make .tpl file searching easier
-ag() {
-    if [[ $1 == '--tpl' ]]; then
-        shift
-        command ag -G '\.tpl$' "$@"
-    else
-        command ag "$@"
-    fi
-}
-

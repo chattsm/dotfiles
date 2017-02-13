@@ -77,8 +77,5 @@ if [[ ! -d "$TMPPREFIX" ]]; then
 fi
 
 # Chruby
-if [[ ! -o interactive ]]; then
-  source /usr/local/share/chruby/chruby.sh
-  chruby ruby-2.3.0
-fi
-
+source /usr/local/share/chruby/chruby.sh
+chruby ruby-2.4.0
