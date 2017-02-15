@@ -52,9 +52,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 477 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>545 214 796 473 0 0 1680 1027 </string>
+	<string>513 169 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>675 81 990 813 0 0 1680 1027 </string>
+	<string>633 81 990 813 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>212 208 990 813 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -271,7 +271,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>Recycle</string>
+			<string>No</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -660,7 +660,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/mchatterton</string>
+			<string>~/Projects</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
@@ -713,7 +713,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/mchatterton/dotfiles</string>
+	<string>~/dotfiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
