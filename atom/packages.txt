@@ -1,8 +1,10 @@
 atom-beautify@0.29.17
 highlight-selected@0.12.0
+language-csv@1.1.2
+language-pascal@0.20.2
 language-rust@0.4.9
 language-slim@0.5.0
-linter@1.11.22
+linter@1.11.23
 linter-rubocop@0.5.3
 linter-slim@1.0.0
 react@0.16.2
