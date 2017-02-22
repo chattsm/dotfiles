@@ -1,5 +1,21 @@
 # Dotfiles
 
+## Prerequisites
+```
+brew install zsh
+brew install git
+brew install hub
+brew install ruby-install
+brew install chruby
+brew install the_silver_searcher
+brew install tmux
+brew install vim
+brew install colordiff
+brew install tree
+brew install source-highlight
+```
+Install NVM - https://github.com/creationix/nvm
+
 ### Installing
 ```
 cd ~
