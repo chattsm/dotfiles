@@ -35,6 +35,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'osx' \
   'ruby' \
+  'node' \
   'history-substring-search' \
   'autosuggestions' \
   'prompt'
