@@ -9,6 +9,7 @@
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
   editor:
+    fontFamily: "Andale Mono"
     fontSize: 12
     invisibles: {}
     showIndentGuide: true

@@ -79,7 +79,3 @@ fi
 # Chruby
 source /usr/local/share/chruby/chruby.sh
 chruby ruby-2.4.0
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

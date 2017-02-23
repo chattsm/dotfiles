@@ -45,7 +45,7 @@ export LESS='-g -i -M -R -S -w -z-4'
 # Add local bins to path
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=~/.composer/vendor/bin:$PATH
+export PATH="$PATH:`yarn global bin`"
 
 # Tell PostgreSQL we want to login as the 'postgres' user
 export PGUSER=postgres
