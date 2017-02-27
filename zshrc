@@ -45,6 +45,7 @@ export LESS='-g -i -M -R -S -w -z-4'
 # Add local bins to path
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
+export PATH=node_modules/.bin:$PATH
 export PATH="$PATH:`yarn global bin`"
 
 # Tell PostgreSQL we want to login as the 'postgres' user
@@ -65,6 +66,8 @@ alias brs='bin/rspec'
 alias bra='bin/rake'
 alias bs='bin/spring'
 
+alias eslint='nocorrect eslint'
+
 alias gs='git status'
 alias gst='git stash'
 alias gc='git commit'
@@ -76,7 +79,6 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias gba='git branch -a'
 
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias dl='curl -C - -L --retry 10 -O'
 alias dlf='curl -C - -L --retry 10 -o'
 

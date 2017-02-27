@@ -3,6 +3,7 @@ Host *
     ServerAliveInterval 120
     ServerAliveCountMax 30
     UseRoaming no
+    UseKeychain yes
 
 Host [shortcut]
     HostName [ip]
@@ -10,4 +11,3 @@ Host [shortcut]
     LocalForward 42001 localhost:5432
     LocalForward 42002 localhost:3306
     ForwardAgent yes
-

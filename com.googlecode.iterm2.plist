@@ -56,11 +56,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 477 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>676 208 918 495 0 0 1920 1057 </string>
+	<string>676 186 918 495 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>918 237 990 678 0 0 1920 1057 </string>
+	<string>917 129 990 748 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>286 237 990 813 0 0 1920 1057 </string>
+	<string>286 363 990 678 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>233 214 990 813 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -610,7 +610,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>45</integer>
+			<integer>55</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -729,7 +729,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-22T10:28:47Z</date>
+	<date>2017-02-23T10:28:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
