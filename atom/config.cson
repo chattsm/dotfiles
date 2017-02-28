@@ -19,8 +19,7 @@
     hideHighlightOnSelectedWord: true
   linter:
     showErrorTabLine: true
-  "linter-eslint":
-    disableWhenNoEslintConfig: false
+  "linter-eslint": {}
   "linter-rubocop": {}
   "linter-slim":
     executableDir: "/Users/chattsm/.gem/ruby/2.3.0/bin/slimrb"
