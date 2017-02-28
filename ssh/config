@@ -4,6 +4,9 @@ Host *
     ServerAliveCountMax 30
     UseRoaming no
     UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile [key path 1]
+    IdentityFile [key path 2]
 
 Host [shortcut]
     HostName [ip]
