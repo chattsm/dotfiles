@@ -20,7 +20,8 @@
   linter:
     showErrorTabLine: true
   "linter-eslint": {}
-  "linter-rubocop": {}
+  "linter-rubocop":
+    command: "/Users/mchatterton/.gem/ruby/2.4.0/bin/rubocop"
   "linter-slim":
     executableDir: "/Users/chattsm/.gem/ruby/2.3.0/bin/slimrb"
   navigate: {}

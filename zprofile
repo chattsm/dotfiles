@@ -75,7 +75,3 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
-
-# Chruby
-source /usr/local/share/chruby/chruby.sh
-chruby ruby-2.4.0
