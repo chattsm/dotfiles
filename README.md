@@ -7,7 +7,7 @@ brew install git
 brew install hub
 brew install ruby-install
 brew install chruby
-brew install the_silver_searcher
+brew install ripgrep
 brew install tmux
 brew install vim
 brew install colordiff
