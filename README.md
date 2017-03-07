@@ -13,6 +13,7 @@ brew install vim
 brew install colordiff
 brew install tree
 brew install source-highlight
+brew install httpie
 ```
 Install NVM - https://github.com/creationix/nvm
 
