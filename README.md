@@ -2,11 +2,14 @@
 
 ## Prerequisites
 ```
-brew install zsh
+brew install zsh && sudo chsh -s /usr/local/bin/zsh chattsm
 brew install git
 brew install hub
 brew install ruby-install
+brew install node
+brew install yarn
 brew install chruby
+brew install rust
 brew install ripgrep
 brew install tmux
 brew install vim
@@ -15,13 +18,11 @@ brew install tree
 brew install source-highlight
 brew install httpie
 ```
-Install NVM - https://github.com/creationix/nvm
 
 ### Installing
 ```
 cd ~
 git clone --recursive git@github.com:chattsm/dotfiles.git
-ln -s ~/dotfiles/ackrc ~/.ackrc
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/vim ~/.vim
@@ -40,6 +41,7 @@ ln -s ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
 ln -s ~/dotfiles/atom/snippets.cson ~/.atom/snippets.cson
 ln -s ~/dotfiles/atom/styles.less ~/.atom/styles.less
 ```
+
 ### Extending
 ```
 git submodule add [repo] [path]
@@ -50,6 +52,16 @@ git submodule update --init --recursive
 ```
 git submodule update --remote --merge
 git submodule update --init --recursive
+```
+
+## iTerm2
+
+### Loading and Saving preferences
+```
+Menu -> Preferences -> General
+Preferences (Bottom left)
+Check 'Load preferences from a custom folder or URL:' and enter '~/dotfiles'
+Check 'Save changes to folder when iTerm2 quits'
 ```
 
 ## Atom
