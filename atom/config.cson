@@ -19,8 +19,7 @@
     hideHighlightOnSelectedWord: true
   linter: {}
   "linter-eslint": {}
-  "linter-rubocop":
-    command: "/Users/mchatterton/.gem/ruby/2.4.0/bin/rubocop"
+  "linter-rubocop": {}
   "linter-slim":
     executableDir: "/Users/chattsm/.gem/ruby/2.3.0/bin/slimrb"
   navigate: {}
