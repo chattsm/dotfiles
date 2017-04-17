@@ -54,6 +54,20 @@ git submodule update --remote --merge
 git submodule update --init --recursive
 ```
 
+## Prezto
+
+### Keeping up-to-date with upstream
+```
+cd ~/dotfiles/zprezto
+git remote add upstream git@github.com:sorin-ionescu/prezto.git
+git pull --rebase upstream master
+git push origin --force
+cd ~/dotfiles/
+git add zprezto
+git commit -m 'Bump prezto'
+git push
+```
+
 ## iTerm2
 
 ### Loading and Saving preferences
