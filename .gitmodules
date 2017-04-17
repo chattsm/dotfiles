@@ -1,6 +1,7 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = git://github.com/chattsm/prezto.git
+	branch = theme/chattsm
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
