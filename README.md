@@ -59,6 +59,7 @@ git submodule update --init --recursive
 ### Keeping up-to-date with upstream
 ```
 cd ~/dotfiles/zprezto
+git checkout theme/chattsm
 git remote add upstream git@github.com:sorin-ionescu/prezto.git
 git pull --rebase upstream master
 git push origin --force
