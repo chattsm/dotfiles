@@ -1,16 +1,19 @@
 Host *
-    TCPKeepAlive yes
-    ServerAliveInterval 120
-    ServerAliveCountMax 30
-    UseRoaming no
-    UseKeychain yes
-    AddKeysToAgent yes
-    IdentityFile [key path 1]
-    IdentityFile [key path 2]
+  TCPKeepAlive yes
+  ServerAliveInterval 120
+  ServerAliveCountMax 30
+  UseRoaming no
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile [key path 1]
+  IdentityFile [key path 2]
 
 Host [shortcut]
-    HostName [ip]
-    User [user]
-    LocalForward 42001 localhost:5432
-    LocalForward 42002 localhost:3306
-    ForwardAgent yes
+  HostName [ip]
+  Port [port]
+  User [user]
+  IdentitiesOnly yes
+  IdentityFile [key path 3]
+  LocalForward 42001 localhost:5432
+  LocalForward 42002 localhost:3306
+  ForwardAgent yes
