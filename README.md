@@ -40,6 +40,7 @@ ln -s ~/dotfiles/atom/init.coffee ~/.atom/init.coffee
 ln -s ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
 ln -s ~/dotfiles/atom/snippets.cson ~/.atom/snippets.cson
 ln -s ~/dotfiles/atom/styles.less ~/.atom/styles.less
+ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
 ### Extending
@@ -77,6 +78,18 @@ Menu -> Preferences -> General
 Preferences (Bottom left)
 Check 'Load preferences from a custom folder or URL:' and enter '~/dotfiles'
 Check 'Save changes to folder when iTerm2 quits'
+```
+
+## Code
+
+### Installing Extensions
+```
+cat ~/dotfiles/vscode/extensions.txt | xargs -n1 code --install-extension
+```
+
+### Updating Extensions
+```
+code --list-extensions >! ~/dotfiles/vscode/extensions.txt
 ```
 
 ## Atom
