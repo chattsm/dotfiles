@@ -1,4 +1,7 @@
 EditorConfig.EditorConfig
 PeterJausovec.vscode-docker
+bungcip.better-toml
+kalitaalexey.vscode-rust
+ms-mssql.mssql
 rebornix.Ruby
 zhuangtongfa.Material-theme
