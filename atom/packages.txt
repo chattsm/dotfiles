@@ -1,5 +1,5 @@
-atom-beautify@0.29.23
-busy-signal@1.3.0
+atom-beautify@0.29.26
+busy-signal@1.4.3
 editorconfig@2.2.2
 highlight-selected@0.13.1
 intentions@1.1.2
@@ -8,9 +8,10 @@ language-pascal@0.20.2
 language-rust@0.4.10
 language-slim@0.5.0
 linter@2.1.4
-linter-eslint@8.1.6
+linter-eslint@8.2.1
+linter-reek@2.2.1
 linter-rubocop@2.1.1
 linter-slim@1.0.0
-linter-ui-default@1.2.3
+linter-ui-default@1.6.1
 react@0.16.2
 
