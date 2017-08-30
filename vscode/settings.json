@@ -1,5 +1,4 @@
 {
-    "workbench.welcome.enabled": false,
     "editor.rulers": [80],
     "editor.fontFamily": "Andale Mono",
     "editor.fontSize": 12,
@@ -9,11 +8,12 @@
     },
     "editor.renderIndentGuides": true,
     "editor.autoIndent": true,
-    "window.reopenFolders": "all",
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "One Dark Pro",
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "none",
-    "window.newWindowDimensions": "inherit"
+    "window.newWindowDimensions": "inherit",
+    "window.restoreWindows": "all",
+    "workbench.startupEditor": "newUntitledFile"
 }
