@@ -9,6 +9,7 @@ brew install ruby-install
 brew install node
 brew install yarn
 brew install chruby
+brew install go
 brew install rust
 brew install ripgrep
 brew install tmux
@@ -17,6 +18,7 @@ brew install colordiff
 brew install tree
 brew install source-highlight
 brew install httpie
+brew install ctop
 ```
 
 ### Installing
