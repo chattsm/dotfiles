@@ -15,5 +15,6 @@
     "editor.renderWhitespace": "none",
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0
 }
