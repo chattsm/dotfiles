@@ -54,11 +54,11 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>532 476 620 392 0 0 1680 1027 </string>
+	<string>2570 498 620 392 1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>2000 234 796 473 1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>374 79 1515 867 0 0 1920 1057 </string>
+	<string>1929 167 990 867 1920 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_B1B0F3FA-9296-4541-9ED1-33CE2E941D11</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_B1B0F3FA-9296-4541-9ED1-33CE2E941D11_selection</key>
@@ -721,16 +721,18 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-26T07:01:36Z</date>
+	<date>2017-10-23T07:07:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.2</string>
+	<string>3.1.4</string>
 </dict>
 </plist>
