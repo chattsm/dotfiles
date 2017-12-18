@@ -4,7 +4,7 @@
     "editor.fontSize": 12,
     "ruby.lint": {
         "rubocop": true,
-        "reek": true
+        "reek": false
     },
     "editor.renderIndentGuides": true,
     "editor.autoIndent": true,
@@ -16,5 +16,6 @@
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "workbench.panel.location": "bottom"
 }
