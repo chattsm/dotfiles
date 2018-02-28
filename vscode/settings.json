@@ -17,5 +17,6 @@
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "workbench.panel.location": "bottom"
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.tabSizing": "shrink",
 }
