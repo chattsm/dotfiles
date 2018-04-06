@@ -47,7 +47,9 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=node_modules/.bin:$PATH
 export PATH="$PATH:`yarn global bin`"
-eval $(minishift oc-env)
+
+# Add Minishift to $PATH
+[ -x "$(command -v minishift)" ] && eval $(minishift oc-env)
 
 # Tell PostgreSQL we want to login as the 'postgres' user
 export PGUSER=postgres
