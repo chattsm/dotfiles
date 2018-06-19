@@ -4,7 +4,7 @@
     "editor.fontSize": 12,
     "ruby.lint": {
         "rubocop": true,
-        "reek": false
+        "reek": true
     },
     "editor.renderIndentGuides": true,
     "editor.autoIndent": true,

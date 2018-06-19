@@ -54,11 +54,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>2996 344 620 392 1920 0 1920 1057 </string>
+	<string>2604 470 620 392 1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>397 -842 918 452 334 -1050 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>335 -1048 990 1021 334 -1050 1680 1027 </string>
+	<string>1933 22 990 1021 1920 0 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>2167 36 990 1021 1920 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_B1B0F3FA-9296-4541-9ED1-33CE2E941D11</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_B1B0F3FA-9296-4541-9ED1-33CE2E941D11_selection</key>
@@ -677,6 +679,8 @@
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -721,7 +725,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-27T08:27:27Z</date>
+	<date>2018-05-31T07:15:18Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
@@ -733,6 +737,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 </dict>
 </plist>
