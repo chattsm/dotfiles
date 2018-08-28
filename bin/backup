@@ -1,0 +1,45 @@
+#! /usr/bin/env bash
+
+REMOTE_USER="mchatterton"
+REMOTE_PATH="/Volumes/${REMOTE_USER}"
+BACKUP_TARGETS=(
+  ".bash_history"
+  ".config"
+  ".docker"
+  ".kube"
+  ".lesshst"
+  ".mysql_history"
+  ".pry_history"
+  ".psql_history"
+  ".ssh"
+  ".tldrc"
+  ".vim"
+  ".viminfo"
+  ".zcompdump"
+  ".zcompdump.zwc"
+  ".zhistory"
+  "Desktop"
+  "Documents"
+  "dotfiles"
+  "Downloads"
+  "Pictures"
+  "Projects"
+)
+
+if [ ! -d "${REMOTE_PATH}" ]; then
+  open "smb://fil0000a.internal.local/Users/${REMOTE_USER}"
+  sleep 5
+fi
+
+if [ ! -d "${REMOTE_PATH}" ]; then
+  echo "Failed to mount ${REMOTE_PATH}"
+  exit 1
+fi
+
+for backup_target in "${BACKUP_TARGETS[@]}"; do
+  rclone sync -vvv --delete-during "$HOME/${backup_target}" "${REMOTE_PATH}/${backup_target}"
+done
+
+# if [ -d "${REMOTE_PATH}" ]; then
+#   umount "${REMOTE_PATH}"
+# fi

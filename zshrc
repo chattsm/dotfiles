@@ -46,6 +46,7 @@ export LESS='-g -i -M -R -S -w -z-4'
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=node_modules/.bin:$PATH
+export PATH=~/dotfiles/bin:$PATH
 export PATH="$PATH:`yarn global bin`"
 
 # Add Minishift to $PATH
