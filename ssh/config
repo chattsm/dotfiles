@@ -5,6 +5,9 @@ Host *
   UseRoaming no
   UseKeychain yes
   AddKeysToAgent yes
+  ControlMaster auto
+  ControlPath ~/.ssh/sockets/%r@%h-%p
+  ControlPersist 1800
   IdentityFile [key path 1]
   IdentityFile [key path 2]
 
@@ -14,6 +17,7 @@ Host [shortcut]
   User [user]
   IdentitiesOnly yes
   IdentityFile [key path 3]
+  ForwardAgent yes
   LocalForward 42001 localhost:5432
   LocalForward 42002 localhost:3306
-  ForwardAgent yes
+  RemoteForward 2222 git.internal.local:22
