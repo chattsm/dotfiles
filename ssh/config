@@ -7,7 +7,7 @@ Host *
   AddKeysToAgent yes
   ControlMaster auto
   ControlPath ~/.ssh/sockets/%r@%h-%p
-  ControlPersist 1800
+  ControlPersist 3600
   IdentityFile [key path 1]
   IdentityFile [key path 2]
 
