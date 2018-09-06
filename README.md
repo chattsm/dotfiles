@@ -19,8 +19,10 @@ brew install tree
 brew install source-highlight
 brew install httpie
 brew install ctop
+brew install gpg
 brew cask install minikube
 brew cask install minishift
+brew cask install keybase
 ```
 
 ### Installing
