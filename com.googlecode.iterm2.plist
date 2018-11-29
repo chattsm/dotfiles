@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -12,6 +14,8 @@
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>B1B0F3FA-9296-4541-9ED1-33CE2E941D11</string>
+	<key>DimOnlyText</key>
+	<false/>
 	<key>HideTab</key>
 	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -54,11 +58,11 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>2604 470 620 392 1920 0 1920 1057 </string>
+	<string>2570 498 620 392 1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2384 271 1016 512 1920 0 1920 1057 </string>
+	<string>2507 457 928 394 1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1931 23 990 1021 1920 0 1920 1057 </string>
+	<string>1930 18 990 1021 1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2167 36 990 1021 1920 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_B1B0F3FA-9296-4541-9ED1-33CE2E941D11</key>
@@ -69,7 +73,7 @@
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
-			<true/>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -250,6 +254,8 @@
 			<integer>140</integer>
 			<key>Command</key>
 			<string></string>
+			<key>Cursor Boost</key>
+			<real>0.0</real>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -558,7 +564,7 @@
 				</dict>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.46123417721518989</real>
+			<real>0.45672867295382624</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -582,7 +588,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -621,6 +627,8 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
+			<key>Use Cursor Guide</key>
+			<false/>
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
@@ -635,6 +643,10 @@
 			<string></string>
 		</dict>
 	</array>
+	<key>NoSyncHaveRequestedFullDiskAccess</key>
+	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -697,9 +709,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-19T07:23:21Z</date>
+	<date>2018-11-29T09:04:57Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.44331931089743593</real>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
@@ -709,6 +723,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.6</string>
+	<string>3.2.6</string>
 </dict>
 </plist>

@@ -9,7 +9,6 @@
     "editor.renderIndentGuides": true,
     "editor.autoIndent": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "One Dark Pro",
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "none",
@@ -19,4 +18,5 @@
     "window.zoomLevel": 0,
     "workbench.panel.defaultLocation": "bottom",
     "workbench.editor.tabSizing": "shrink",
+    "workbench.fontAliasing": "auto",
 }
