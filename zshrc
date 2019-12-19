@@ -12,6 +12,29 @@ fi
 
 # Customize to your needs...
 
+if [[ "$(uname)" == "Darwin" ]]; then
+  # Sleep image and immediately enter "standby" along with FileVault destroying
+  # disk decryption keys
+  # pmset -g | rg -e 'hibernate|standby|poweroff'
+  pm-hibernate() {
+    sudo pmset -a hibernatemode 25
+    sudo pmset -a standbydelayhigh 0
+    sudo pmset -a standbydelaylow 0
+    sudo pmset -a autopoweroffdelay 0
+    sudo pmset -a destroyfvkeyonstandby 1
+  }
+
+  # Restore all settings to their defaults, effectively restoring default sleep
+  # behavior for macOS laptops
+  pm-safesleep() {
+    sudo pmset -a hibernatemode 3
+    sudo pmset -a standbydelayhigh 86400
+    sudo pmset -a standbydelaylow 10800
+    sudo pmset -a autopoweroffdelay 28800
+    sudo pmset -a destroyfvkeyonstandby 0
+  }
+fi
+
 # Lets behave more like Vim when in Vi mode
 bindkey -M vicmd "?" vi-history-search-backward
 bindkey -M vicmd "/" vi-history-search-forward
