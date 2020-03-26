@@ -5,6 +5,11 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# Catalina forces use of ZSH so we need to be explicit about using zhistory now
+# before loading prezto
+# https://github.com/sorin-ionescu/prezto/issues/1744
+export HISTFILE="${ZDOTDIR:-$HOME}/.zhistory"
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
