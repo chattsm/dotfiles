@@ -19,10 +19,22 @@ brew install tree
 brew install source-highlight
 brew install httpie
 brew install ctop
+brew install htop
 brew install gpg
+brew install fd
+brew install fzf
+brew install jq
+brew install rust
+brew install shellcheck
+brew install tldr
+brew install tree
+brew cask install iterm2
+brew cask install code
+brew cask install docker
 brew cask install minikube
 brew cask install minishift
 brew cask install keybase
+brew cask install monitorcontrol
 ```
 
 ### Installing

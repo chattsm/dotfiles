@@ -38,7 +38,9 @@ if [ ! -d "${REMOTE_PATH}" ]; then
 fi
 
 for backup_target in "${BACKUP_TARGETS[@]}"; do
-  rclone sync -vvv --delete-during "$HOME/${backup_target}" "${REMOTE_PATH}/${backup_target}"
+  rclone sync -v --delete-during --copy-links --modify-window 1s \
+	  "$HOME/${backup_target}" \
+	  "${REMOTE_PATH}/${backup_target}"
 done
 
 # if [ -d "${REMOTE_PATH}" ]; then
