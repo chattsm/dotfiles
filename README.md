@@ -24,15 +24,12 @@ brew install gpg
 brew install fd
 brew install fzf
 brew install jq
-brew install rust
 brew install shellcheck
 brew install tldr
-brew install tree
 brew cask install iterm2
 brew cask install code
 brew cask install docker
-brew cask install minikube
-brew cask install minishift
+brew cask install visual-studio-code
 brew cask install keybase
 brew cask install monitorcontrol
 ```
@@ -92,8 +89,7 @@ git push
 
 ### Loading and Saving preferences
 ```
-Menu -> Preferences -> General
-Preferences (Bottom left)
+Menu -> Preferences -> General -> Preferences (tab)
 Check 'Load preferences from a custom folder or URL:' and enter '~/dotfiles'
 Check 'Save changes to folder when iTerm2 quits'
 ```
