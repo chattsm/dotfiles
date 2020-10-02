@@ -3,6 +3,7 @@
 ## Prerequisites
 ```
 brew install zsh && sudo chsh -s /usr/local/bin/zsh chattsm
+brew install bash
 brew install git
 brew install hub
 brew install ruby-install
@@ -26,6 +27,7 @@ brew install fzf
 brew install jq
 brew install shellcheck
 brew install tldr
+brew install rclone
 brew cask install iterm2
 brew cask install code
 brew cask install docker
@@ -104,16 +106,4 @@ cat ~/dotfiles/vscode/extensions.txt | xargs -n1 code --install-extension
 ### Updating Extensions
 ```
 code --list-extensions >! ~/dotfiles/vscode/extensions.txt
-```
-
-## Atom
-
-### Installing Packages
-```
-apm install --packages-file ~/dotfiles/atom/packages.txt
-```
-
-### Updating Packages
-```
-apm list --installed --bare >! ~/dotfiles/atom/packages.txt
 ```

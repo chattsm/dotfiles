@@ -2,11 +2,10 @@
 
 REMOTE_USER="mchatterton"
 REMOTE_PATH="/Volumes/${REMOTE_USER}"
-BACKUP_TARGETS=(
+SOURCE_TARGETS=(
   ".bash_history"
   ".config"
   ".docker"
-  ".kube"
   ".lesshst"
   ".mysql_history"
   ".pry_history"
@@ -15,8 +14,6 @@ BACKUP_TARGETS=(
   ".tldrc"
   ".vim"
   ".viminfo"
-  ".zcompdump"
-  ".zcompdump.zwc"
   ".zhistory"
   "Backups"
   "Desktop"
@@ -37,10 +34,18 @@ if [ ! -d "${REMOTE_PATH}" ]; then
   exit 1
 fi
 
-for backup_target in "${BACKUP_TARGETS[@]}"; do
-  rclone sync -v --delete-during --copy-links --modify-window 1s \
-	  "$HOME/${backup_target}" \
-	  "${REMOTE_PATH}/${backup_target}"
+for source_target in "${SOURCE_TARGETS[@]}"; do
+  if [[ -f "$HOME/${source_target}" ]]; then
+    backup_target="${REMOTE_PATH}"
+  else
+    backup_target="${REMOTE_PATH}/${source_target}"
+  fi
+
+  echo "Backing up $HOME/${source_target} to ${backup_target}..."
+
+  rclone sync --progress --delete-during --copy-links --modify-window 1s \
+	  "$HOME/${source_target}" \
+	  "${backup_target}"
 done
 
 # if [ -d "${REMOTE_PATH}" ]; then
