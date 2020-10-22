@@ -88,6 +88,10 @@ export PGUSER=postgres
 export EDITOR=vim
 export VISUAL=vim
 
+# Make pgp passphrases work properly
+# https://www.elliotblackburn.com/importing-pgp-keys-from-keybase-into-gpg/
+export GPG_TTY=$(tty)
+
 # Aliases
 alias be='bundle exec'
 alias berai='bundle exec rails'
