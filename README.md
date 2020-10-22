@@ -3,37 +3,11 @@
 ## Prerequisites
 ```
 brew install zsh && sudo chsh -s /usr/local/bin/zsh chattsm
-brew install bash
-brew install git
-brew install hub
-brew install ruby-install
-brew install node
-brew install yarn
-brew install chruby
-brew install go
-brew install rust
-brew install ripgrep
-brew install tmux
-brew install vim
-brew install colordiff
-brew install tree
-brew install source-highlight
-brew install httpie
-brew install ctop
-brew install htop
-brew install gpg
-brew install fd
-brew install fzf
-brew install jq
-brew install shellcheck
-brew install tldr
-brew install rclone
-brew cask install iterm2
-brew cask install code
-brew cask install docker
-brew cask install visual-studio-code
-brew cask install keybase
-brew cask install monitorcontrol
+brew install bash git hub ruby-install node yarn chruby go rust ripgrep tmux \
+vim colordiff tree source-highlight httpie ctop htop gpg fd fzf jq shellcheck \
+tldr rclone rsync
+brew cask install iterm2 docker visual-studio-code keybase monitorcontrol \
+fork resolutionator
 ```
 
 ### Installing
