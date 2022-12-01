@@ -6,8 +6,7 @@
         "rubocop": true,
         "reek": true
     },
-    "editor.renderIndentGuides": true,
-    "editor.autoIndent": true,
+    "editor.autoIndent": "full",
     "files.trimTrailingWhitespace": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -19,5 +18,18 @@
     "workbench.panel.defaultLocation": "bottom",
     "workbench.editor.tabSizing": "shrink",
     "workbench.fontAliasing": "auto",
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.guides.indentation": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
 }

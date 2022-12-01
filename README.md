@@ -5,7 +5,7 @@
 brew install zsh && sudo chsh -s /usr/local/bin/zsh chattsm
 brew install bash git hub ruby-install node yarn chruby go rust ripgrep tmux \
 vim colordiff tree source-highlight httpie ctop htop gpg fd fzf jq shellcheck \
-tldr rclone rsync
+tldr rclone rsync yq
 brew cask install iterm2 docker visual-studio-code keybase monitorcontrol \
 fork resolutionator
 ```
