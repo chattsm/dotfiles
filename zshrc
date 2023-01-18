@@ -123,3 +123,5 @@ alias dlf='curl -C - -L --retry 10 -o'
 #alias -g rai='rails'
 #alias -g rs='rspec'
 #alias -g ra='rake'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
