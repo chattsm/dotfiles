@@ -76,7 +76,13 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/opt/sqlite/bin:$PATH
 export PATH=node_modules/.bin:$PATH
 export PATH=~/dotfiles/bin:$PATH
-export PATH="$PATH:`yarn global bin`"
+export PATH=/opt/homebrew/opt/openjdk/bin:$PATH
+export PATH=$HOME/go/bin:$PATH
+
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export NVM_DIR="$HOME/.nvm"
 
 # Add Minishift to $PATH
 [ -x "$(command -v minishift)" ] && eval $(minishift oc-env)
@@ -125,3 +131,14 @@ alias dlf='curl -C - -L --retry 10 -o'
 #alias -g ra='rake'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+
+eval "$(direnv hook zsh)"
+source /Users/martinchatterton/.config/op/plugins.sh
+
+source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
+
+source "/opt/homebrew/opt/asdf/libexec/asdf.sh"
+. ~/.asdf/plugins/java/set-java-home.zsh

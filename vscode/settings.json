@@ -14,7 +14,6 @@
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
     "workbench.panel.defaultLocation": "bottom",
     "workbench.editor.tabSizing": "shrink",
     "workbench.fontAliasing": "auto",
@@ -32,4 +31,22 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.guides.indentation": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "gitlens.gitCommands.search.showResultsInSideBar": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.accessibilitySupport": "off",
+    "gitlens.changes.locations": [
+        "overview",
+        "line",
+        "gutter"
+    ],
+    "gitlens.fileAnnotations.preserveWhileEditing": false,
+    "gitlens.codeLens.enabled": false,
+    "explorer.confirmDelete": false,
+    "application.shellEnvironmentResolutionTimeout": 30,
+    "calva.autoOpenInspector": false,
 }
